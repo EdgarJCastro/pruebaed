@@ -1,5 +1,5 @@
 Instalación
-El proyecto esta desarrollado en Laravel 8.29
+El proyecto esta desarrollado en Laravel 8.29 y base de datos mysql
 
  
 1. Clonar proyecto 
