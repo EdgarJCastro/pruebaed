@@ -1,3 +1,42 @@
+Instalación
+El proyecto esta desarrollado en Laravel 8.29 y base de datos mysql
+
+ 
+1. Clonar proyecto 
+
+2. Hacer Pull 
+   
+3. $ composer install  
+
+4. $ npm install  
+
+5. $ npm run dev 
+
+6. Copiar el archivo .env.example 
+   (.env - copia.example) y cambiar el nombre a .env 
+   
+7. Dejar la configuracion DB de developer
+   ejemplo
+   
+   DB_HOST_DEVELOPER=127.0.0.1
+   DB_DATABASE_DEVELOPER=prueba
+   DB_USERNAME_DEVELOPER=root
+   DB_PASSWORD_DEVELOPER=
+
+8. Crear la base de datos con el respectivo nombre asignado en .env	
+   y configurar el archivo .env 
+   ejemplo:
+   
+   prueba
+   
+9. $ php artisan key:generate
+10. $ php artisan storage:link
+11. Migrar las bases de datos del sistema, y seeders.
+   
+    $ php artisan migrate:fresh --seed
+    
+    
+    
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
